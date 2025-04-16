@@ -57,7 +57,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start server after DB connection
-const PORT = process.env.SERVER_PORT || 3000;
+const PORT = process.env.SERVER_PORT || 6000;
 
 sequelize.authenticate()
     .then(() => {
