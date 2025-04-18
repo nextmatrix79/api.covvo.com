@@ -1,3 +1,8 @@
+/**
+ * Created by Syed Suhaib Zia
+ * Created At: 03/30/2025 12:00 PM
+ * Version: 1.0.0
+ */
 'use strict';
 const rawSchema = require("../schemas/companyType.schema");
 /** @type {import('sequelize-cli').Migration} */
